@@ -1,2 +1,4 @@
 .idea/
 .utils/
+# test binary
+test_program
