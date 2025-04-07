@@ -1,6 +1,5 @@
 #include <stdio.h>
 
-
  
 int float_to_int(float value){
 
