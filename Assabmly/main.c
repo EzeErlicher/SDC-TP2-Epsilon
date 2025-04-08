@@ -1,11 +1,14 @@
 #include <stdio.h>
 
-// Declaración de la función escrita en NASM
-extern int convertir_y_sumar(float valor);
+// Prototipo de la función en ensamblador
+extern int funcion(float valor);
 
 int main() {
-    float numero = 31.4;
-    int resultado = convertir_y_sumar(numero);
-    printf("Resultado entero: %d\n", resultado); // Debería ser 4
+    float mi_float = 3.14f;
+
+    int resultado = funcion(mi_float);
+
+    printf("Resultado final (float convertido a entero + 1): %d\n", resultado);
+
     return 0;
 }
