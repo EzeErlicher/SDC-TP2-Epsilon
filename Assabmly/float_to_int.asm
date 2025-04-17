@@ -1,8 +1,8 @@
-global funcion
+global float_to_int
 extern debug_dump_stack
 
 section .text
-funcion:
+float_to_int:
     push    rbp
     mov     rbp, rsp
 
