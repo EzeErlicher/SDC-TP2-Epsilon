@@ -6,12 +6,15 @@ Most GNU/Linux machines comes with Ruby installed, it doesn't matter if the vers
   
 `ruby -v`
 
-Let me know if you have a version that doesn't fit the requirements for this project. After that, you need to install a few things, but **make sure you are standing in the root of this project when you do it (check that with `pwd`)**. In this order:
+If for any reason you don't have ruby installed on your system or if it's older than 3.0.X, please [update it](https://www.ruby-lang.org/en/downloads/).  
+
+After that, you need to install a few things, but **make sure you are standing in the root of this project when you do it (check that with `pwd`)**. In this order:
 
 ```text
 sudo apt install ruby-dev
 sudo gem install ffi
-/bin/ruby /bin/bundle install
+sudo gem install bundler
+bundle install
 ```
 
 You are ready now to run the Ruby script with:
