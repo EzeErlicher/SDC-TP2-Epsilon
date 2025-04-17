@@ -1,4 +1,7 @@
+
 # SDC-TP2-Epsilon
+
+## Report: See file named "Informe_TP2.pdf" ##
 
 ## For peers: how to quick-setup Ruby on your machine to run this code.
 
